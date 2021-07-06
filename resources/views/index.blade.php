@@ -34,6 +34,8 @@
                         <td>{{ $student->email }}</td>
 
 
+
+
                         <td>
                             <form action="{{route('delete.std',$student->id)}}" method="POST">
 
